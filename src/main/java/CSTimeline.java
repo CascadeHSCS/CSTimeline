@@ -6,14 +6,13 @@ public class CSTimeline {
     public static void main(String[] args) {
         final List<TimelineEntry> timeline =
                 asList(
-                        new TimelineEntry("Grace Hopper",1959, "COBOL")
-
-                        // ,new TimelineEntry("Dennis Ritchie", 1972, "C")
-                        // ,new TimelineEntry("Bill Gates", 1975, "Altair Basic")
-                    //    ,new TimelineEntry("Bjarne Stroustrup", 1983, "C++"),
-                        //   ,new TimelineEntry("James Gosling",1995,"Java")
-//                        ,new TimelineEntry("Rasmus Lerdorf", 1995, "PHP")
-//                        ,new TimelineEntry("Anders Hejlsberg", 2000, "C#")
+                    new TimelineEntry("Grace Hopper",1959, "COBOL")
+                    // ,new TimelineEntry("Dennis Ritchie", 1972, "C")
+                    // ,new TimelineEntry("Bill Gates", 1975, "Altair Basic")
+                    // ,new TimelineEntry("Bjarne Stroustrup", 1983, "C++")
+                    // ,new TimelineEntry("James Gosling",1995,"Java")
+                    // ,new TimelineEntry("Rasmus Lerdorf", 1995, "PHP")
+                    // ,new TimelineEntry("Anders Hejlsberg", 2000, "C#")
                 );
         System.out.println(generateTimelineColumns(timeline).toString());
         System.out.println(generateDateColumns(timeline).toString());
